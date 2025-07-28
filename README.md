@@ -112,7 +112,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 * No live preview is available.
 * All 3D assets and media are loaded locally.
-* Screenshots are stored in the `/screenshots/` directory (not in the repo yet — create and add them).
+* Screenshots are stored in the `/src/`.
 
 ```
 
