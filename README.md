@@ -63,9 +63,9 @@ BuzzWorld/
 
 ![Loader Section](src/Screenshot1.png)
 
-![About Bee Section](src/Screenshot1.png)
+![About Bee Section](src/Screenshot2.png)
 
-![3D Bee Model](src/Screenshot1.png)
+![3D Bee Model](src/Screenshot3.png)
 
 ---
 
