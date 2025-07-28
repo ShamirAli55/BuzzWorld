@@ -48,7 +48,7 @@ const loader = new GLTFLoader();
 const rgbeLoader = new RGBELoader();
 
 
-loader.load('assets/predator/scene.glb', (gltf) => {
+loader.load('assets/model/scene.glb', (gltf) => {
         // Add the model to the scene
         model = gltf.scene;
         scene.add(model);
