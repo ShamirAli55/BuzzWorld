@@ -60,14 +60,12 @@ BuzzWorld/
 
 > Below are sample static visuals of the experience.
 
-### 🐝 Loader & Hero Section
-![Loader Section](screenshots/hero-loader.png)
 
-### 🌿 About Section
-![About Bee Section](screenshots/about.png)
+![Loader Section](src/Screenshot1.png)
 
-### 🛰️ Bee Model View
-![3D Bee Model](screenshots/3d-view.png)
+![About Bee Section](src/Screenshot1.png)
+
+![3D Bee Model](src/Screenshot1.png)
 
 ---
 
