@@ -255,15 +255,29 @@ const ImageAnimation = () => {
 ImageAnimation();
 document.body.style.overflow = "hidden";
 const load = document.querySelector("#loader");
+const tl = gsap.timeline();
 
-gsap.to(load, {
+tl.from("#loader h1", {
+    y: 80,
     opacity: 0,
-    y: -100,
-    duration: 1.5,
-    delay: 4,
+    skewY: 6,
+    duration: 0.9,
+    ease: "power4.out",
+    stagger: 0.4
+})
+.to("#loader h1", {
+    opacity: 0,
+    y: -40,
+    duration: 0.6,
+    stagger: 0.2,
+    ease: "power2.in"
+}, "+=0.6")
+.to("#loader", {
+    opacity: 0,
+    duration: 0.8,
     ease: "power2.out",
     onComplete: () => {
-        load.style.display = "none";
         document.body.style.overflow = "auto";
+        document.querySelector("#loader").style.display = "none";
     }
 });
