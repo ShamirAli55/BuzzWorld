@@ -254,8 +254,16 @@ const ImageAnimation = () => {
 }
 ImageAnimation();
 document.body.style.overflow = "hidden";
-var load = document.querySelector("#loader");
-setTimeout(function () {
-    document.body.style.overflow = "auto";
-    load.style.top = "-100%";
-}, 4200);
+const load = document.querySelector("#loader");
+
+gsap.to(load, {
+    opacity: 0,
+    y: -100,
+    duration: 1.5,
+    delay: 4,
+    ease: "power2.out",
+    onComplete: () => {
+        load.style.display = "none";
+        document.body.style.overflow = "auto";
+    }
+});
