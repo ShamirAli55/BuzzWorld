@@ -80,16 +80,14 @@ BuzzWorld/
 
    ```bash
    npm install
-   ```
+
 3. Run server
 
   npm run dev
-   ```
+
 4. Open in browser:
 
-   ```
    http://localhost:5173
-   ```
 
 ---
 
