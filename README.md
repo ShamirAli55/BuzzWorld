@@ -81,15 +81,14 @@ BuzzWorld/
    ```bash
    npm install
    ```
-3. Run a local server (recommended for loading `.glb` files):
+3. Run server
 
-   ```bash
-   npx serve .
+  npm run dev
    ```
 4. Open in browser:
 
    ```
-   http://localhost:3000
+   http://localhost:5173
    ```
 
 ---
@@ -108,13 +107,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 📌 Notes
-
-* No live preview is available.
-* All 3D assets and media are loaded locally.
-* Screenshots are stored in the `/src/`.
-
-```
 
 ---
 
